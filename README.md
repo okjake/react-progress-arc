@@ -1,7 +1,7 @@
 react-progressarc
 =================
 
-Simple circular progress meters for React.js.
+Simple SVG circular progress meters for React.js.
 
 Installation
 ============
@@ -34,7 +34,7 @@ Customisation
 The following properties can be set to customise the arcs through React:
 
 + `completed` - Set this to a value between 0 and 1. You probably want this bound to `this.state.something`.
-+ `stroke` - Progress meter colour, default `'#444'`.
++ `stroke` - Progress meter colour, default `#444`.
 + `diameter` - External diameter, width and height of the arc, default `50`.
 + `background` - Colour of the background circle, default `transparent`.
 + `strokeWidth` - Thickness of the arc drawn, default `5`.
