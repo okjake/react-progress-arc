@@ -1,5 +1,5 @@
-react-progressarc
-=================
+react-progress-arc
+==================
 
 Simple SVG circular progress meters for React.js.
 
@@ -7,7 +7,7 @@ Installation
 ============
 
 ```
-npm install --save react-progressarc
+npm install --save react-progress-arc
 ```
 
 Usage Example
@@ -17,7 +17,7 @@ Usage Example
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ProgressArc = require('react-progressArc');
+var ProgressArc = require('react-progress-arc');
 
 var App = React.createClass({
   render: function() {

@@ -1,6 +1,6 @@
 {
-  "name": "react-progressarc",
-  "version": "1.0.3",
+  "name": "react-progress-arc",
+  "version": "1.0.4",
   "description": "Simple circular progress meters",
   "main": "lib/ProgressArc.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/okjake/react-progressarc.git"
+    "url": "git+ssh://git@github.com/okjake/react-progress-arc.git"
   },
   "keywords": [
     "react-component",
@@ -22,9 +22,9 @@
   "author": "Jake Pyne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okjake/react-progressarc/issues"
+    "url": "https://github.com/okjake/react-progress-arc/issues"
   },
-  "homepage": "https://github.com/okjake/react-progressarc#readme",
+  "homepage": "https://github.com/okjake/react-progress-arc#readme",
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-cli": "^6.3.17",
