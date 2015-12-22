@@ -1,11 +1,12 @@
 {
   "name": "react-progressarc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple circular progress meters",
   "main": "lib/ProgressArc.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
