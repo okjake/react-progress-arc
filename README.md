@@ -1,7 +1,28 @@
 react-progress-arc
 ==================
 
-Simple SVG circular progress meters for React.js.
+Simple circular progress meters for React.js, rendered in SVG.
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:113.09733552923255;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:100.53096491487338;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:87.96459430051421;;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:75.39822368615503;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:62.83185307179586;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:50.26548245743669;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:37.699111843077524;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:25.132741228718338;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:12.566370614359169;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
+<svg width="50" height="50"><circle cx="25" cy="25" r="20" fill="none" stroke="#444" stroke-width="5" stroke-dasharray="125.66370614359172" style="stroke-dashoffset:0;transform-origin:center center;transform:rotate(-90deg);display: inline-block;"></circle></svg>
+
 
 Installation
 ============
@@ -10,22 +31,17 @@ Installation
 npm install --save react-progress-arc
 ```
 
-Usage Example
-=============
+Usage Examples
+==============
+
+Basic usage:
 
 ```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ProgressArc from 'react-progress-arc';
 
-var React = require('react');
-var ReactDOM = require('react-dom');
-var ProgressArc = require('react-progress-arc');
-
-var App = React.createClass({
-  render: function() {
-    return <ProgressArc completed={0.5} />
-  }
-});
-
-ReactDOM.render(<App />, document.getElementById('container'));
+ReactDOM.render(<ProgressArc completed={0.5} />, document.getElementById('container'));
 ```
 
 Customisation
