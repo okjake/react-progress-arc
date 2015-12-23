@@ -1,4 +1,4 @@
-![react-progress-arc](https://cloud.githubusercontent.com/assets/316538/11975555/971b03cc-a96f-11e5-939a-1e01ea5132dd.png)
+![react-progress-arc](https://cloud.githubusercontent.com/assets/316538/11975797/be322a88-a971-11e5-9719-adcbf2a93cca.png)
 
 Simple circular progress meters for React.js, rendered in SVG.
 
