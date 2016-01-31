@@ -19,7 +19,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ProgressArc from 'react-progress-arc';
 
-ReactDOM.render(<ProgressArc completed={0.5} />, document.getElementById('container'));
+const container = document.createElement('div');
+document.getElementsByTagName('body')[0].appendChild(container);
+
+ReactDOM.render(<ProgressArc completed={0.5} />, container);
 ```
 
 Customisation
