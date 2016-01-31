@@ -1,6 +1,6 @@
 {
   "name": "react-progress-arc",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple circular progress meters",
   "main": "lib/ProgressArc.js",
   "scripts": {
