@@ -14,7 +14,7 @@ Usage Examples
 
 Basic usage:
 
-```jsx
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ProgressArc from 'react-progress-arc';
