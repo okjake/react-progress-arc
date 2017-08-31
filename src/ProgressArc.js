@@ -12,7 +12,7 @@ class ProgressArc extends React.Component {
     params.offset = (1 - completed) * params.cir;
 
     return (
-      <svg width={this.props.diameter} height={this.props.diameter}>
+      <svg width={this.props.diameter} height={this.props.diameter} {...this.props}>
         <circle
           className="progress-arc--bg"
           cx={params.cx}
