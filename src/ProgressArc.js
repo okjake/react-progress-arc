@@ -7,14 +7,13 @@ class ProgressArc extends React.Component {
 
     let params = {}
     params.cx = params.cy = this.props.diameter / 2;
-    params.r = (this.props.diameter - ( 2 * this.props.strokeWidth )) / 2;
+    params.r = (this.props.diameter - (2 * this.props.strokeWidth)) / 2;
     params.cir = 2 * Math.PI * params.r;
     params.offset = (1 - completed) * params.cir;
 
     return (
       <svg width={this.props.diameter} height={this.props.diameter} {...this.props}>
         <circle
-          className="progress-arc--bg"
           cx={params.cx}
           cy={params.cy}
           r={params.r}
@@ -23,7 +22,6 @@ class ProgressArc extends React.Component {
           strokeWidth={this.props.strokeWidth}
         />
         <circle
-          className="progress-arc--fg"
           cx={params.cx}
           cy={params.cy}
           r={params.r}
@@ -36,11 +34,10 @@ class ProgressArc extends React.Component {
             transformOrigin: 'center center',
             transform: 'rotate(-90deg)'
           }}
-      />
-     </svg>
+        />
+      </svg>
     )
   }
-
 }
 
 ProgressArc.defaultProps = {

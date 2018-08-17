@@ -36,19 +36,6 @@ The following properties can be set to customise the arcs through React:
 + `background` - Colour of the background circle, default `transparent`.
 + `strokeWidth` - Thickness of the arc drawn, default `5`.
 
-In addition, the arcs can be styled through CSS:
-
-```css
-.progress-arc--bg {
-  stroke: #000000
-}
-
-.progress-arc--fg {
-  transition: all 0.2s;
-  stroke: #FF3333;
-}
-```
-
 License
 =======
 MIT
